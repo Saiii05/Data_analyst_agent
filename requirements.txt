@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+requests
+python-docx
+PyPDF2
+Pillow
+ipywidgets
+pytesseract
+reportlab
