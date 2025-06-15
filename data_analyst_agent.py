@@ -1,34 +1,3 @@
-# Python script converted from data_analyst_agent.ipynb
-#
-# This script implements a Data Analyst Agent capable of processing various
-# file types, performing data analysis, answering questions, and generating
-# visualizations. It leverages the "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
-# model from Together.ai.
-#
-# Instructions for use (after setting up environment as per README.md):
-# 1. Ensure TOGETHER_API_KEY environment variable is set.
-# 2. Run this script: python data_analyst_agent.py
-#
-# The script will create sample files, then run demonstrations.
-# Plots will be saved to 'plot.png'.
-
-# --- Markdown Cell ---
-# # Data Analyst Agent - IPython Notebook
-#
-# This notebook implements a Data Analyst Agent capable of processing various file types, performing data analysis, answering questions, and generating visualizations. It leverages the "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8" model from Together.ai.
-#
-# **Instructions:**
-# 1.  Ensure you have followed the setup instructions in the `README.md` file (install dependencies, Tesseract OCR for image processing, and set your `TOGETHER_API_KEY` environment variable).
-# 2.  Run the cells in this notebook sequentially.
-# --- Markdown Cell ---
-# # Data Analyst Agent - Setup and Dependencies
-# --- Code Cell ---
-# Install necessary libraries
-# # !pip install pandas numpy matplotlib seaborn requests python-docx PyPDF2 Pillow openai ipywidgets reportlab
-# Uncomment the line above and run this cell if libraries are not already installed
-# --- Code Cell ---
-# Import libraries
-# Standard library
 import os
 import json
 import traceback
