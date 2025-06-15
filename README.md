@@ -41,10 +41,10 @@ This project implements a Data Analyst Agent in an IPython Notebook (`data_analy
 4.  **Set Together.ai API Key:**
     The agent requires an API key from [Together.ai](https://www.together.ai/) to use the "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8" model.
     -   Obtain your API key from your Together.ai account.
-    -   Set it as an environment variable named `TOGETHER_API_KEY`.
+    -   **Recommended:** Set it as an environment variable named `TOGETHER_API_KEY`.
         -   **Linux/macOS:** `export TOGETHER_API_KEY='your_api_key_here'`
         -   **Windows (PowerShell):** `$env:TOGETHER_API_KEY='your_api_key_here'`
-        -   Alternatively, you can hardcode the key in the second code cell of the `data_analyst_agent.ipynb` notebook where `TOGETHER_API_KEY` is defined, but this is not recommended for security.
+    -   The notebook (`data_analyst_agent.ipynb`) includes a fallback API key for convenience. However, if this key is revoked or rate-limited, you will need to use your own by setting the environment variable. Using your personal API key via the environment variable is the most robust and secure method.
 
 ## Running the Notebook
 
