@@ -782,14 +782,4 @@ if 'agent' in locals() and agent is not None:
         print("sample.png not found. Skipping Image OCR demo.")
 else:
     print("Agent not instantiated or failed to instantiate. Skipping Image OCR demo.")
-# --- Markdown Cell ---
-# # End of Demonstration
-#
-# This concludes the demonstration of the Data Analyst Agent. You can further test it by:
-# - Uploading your own files (modify the file paths in the demonstration cells).
-# - Asking different questions and analysis requests.
-# - Experimenting with more complex datasets.
-#
-# Remember that the quality of responses and code generation depends on the LLM's capabilities and the clarity of your prompts.
 
-[end of data_analyst_agent.py]
